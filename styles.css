@@ -301,7 +301,9 @@ body{
         margin-top: 20px;
     }
    
-    
+    .informacoes{
+        width: 50%;
+    }
     .texto__logo{
         display: none;
         flex-wrap: nowrap;
@@ -340,6 +342,7 @@ body{
     }
     .conteudo__descricao{
         font-size: 13px;
+        width: 90%;
     }
 
     .informacao__numero{
@@ -366,10 +369,12 @@ body{
     }
     
     .cards{
+        width: 100%;
+        
         
     }
     .informacoes{
-        width: 180px;
+        width: 70%;
         
     }
 
@@ -384,7 +389,10 @@ body{
         font-size: 18px;
         width: 100%;
         text-align: center;
+    }
 
+    .texto__conteudo__informacao{
+        padding: 0;
     }
     .formulario{
         margin-top: 10vh;
