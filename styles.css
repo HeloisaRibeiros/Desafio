@@ -425,6 +425,11 @@ body{
 
     /*pagina de cadastro*/
 
+    .texto__logo__cadastro{
+        font-size: 30px;
+
+    }
+
     .titulo__cadastro{
         font-size: 40px;
         color: #8E2424;
