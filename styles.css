@@ -422,3 +422,69 @@ body{
     }
 
     }
+
+    /*pagina de cadastro*/
+
+    .titulo__cadastro{
+        font-size: 40px;
+        color: #8E2424;
+        text-align: center;
+        margin-top: 15vh;
+    }
+
+    .formulario__cadastro{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 8vh;
+        
+    }
+        
+    .formulario__cadastro__item{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        background: #f9f0f0;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        border: solid 1px;
+        border-color: #a96666; 
+        
+        
+    }
+
+    .formulario__dados{
+        width: 200px;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        border: solid 1px;
+        border-color: #e7e7e9; 
+        width: 320px;
+       
+        
+    }
+    .texto__formulario__cadastro{
+    font-size: 12px;
+    
+       
+    }
+
+    .botao__enviar{
+        background: #8E2424;
+        color: white;
+        padding: 10px 15px 10px 15px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        cursor: pointer;  
+    }
+
+    .botao__enviar__cadastro{
+        text-align: center;
+    }
+    .texto__formulario__cadastro:after {
+        content: '*';
+        color: red;
+    }    
