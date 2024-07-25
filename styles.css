@@ -1,5 +1,6 @@
 body{
     font-family:sans-serif ; 
+    background: #f5f3f3;
 }
 
 .cabecalho{
@@ -26,32 +27,42 @@ body{
     display: flex;
     justify-content: space-between;
     gap: 25px;
-    margin-left: 10vh;
-    
-    
+    margin-left: 10vh;   
 }
+
+
     
 .cabecalho__item__menu{
     text-decoration: none;
     color: #667085;
-    font-size: 16px;
-    ;
-   
+    font-size: 16px;  
 }
+.cabecalho__item__menu:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
 
 .cabecalho__botao{
     display: flex;
     gap: 5px;
+    align-items: center;
 
 }
 
 .cabecalho__botao__entar{
     border: none; 
-    background: white;
+    background: none;
     color:#667085;
     font-size: 17px;
-    cursor: pointer;
-    
+    cursor: pointer; 
+    text-decoration: none;
+}
+.cabecalho__botao__entar:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .cabecalho__botao__cadastrar{
@@ -62,6 +73,7 @@ body{
     border-radius: 8px;
     font-size: 14px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .cabecalho__botao__cadastrar:hover{
@@ -540,10 +552,6 @@ body{
     }
 
    
-       
-
-   
-
     .texto__formulario__senha{
 
         color: #667085;
@@ -574,4 +582,11 @@ body{
         transform: scale(1.1);
     }
 
+   /*Recuperaçao de senha */
+
+   .texto__redefinir__senha{
+    font-size: 14px;
+    color: #575c65;
+    
+   }
    
