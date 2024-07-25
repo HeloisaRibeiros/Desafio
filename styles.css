@@ -427,7 +427,20 @@ body{
 
     .texto__logo__cadastro{
         font-size: 30px;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.813);
+    }
+    
+    .texto__logo__cadastro:hover{
+        color: #575c65;
+    }
 
+
+    .logo__cabecalho__login{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 25px;
     }
     
     .titulo__cadastro{
@@ -486,7 +499,12 @@ body{
         border-radius: 8px;
         font-size: 14px;
         cursor: pointer;  
+        
     }
+    .botao__enviar:hover{
+        background: #a96666
+    }
+        
 
     .botao__enviar__cadastro{
         text-align: center;
@@ -518,15 +536,44 @@ body{
         color: #667085;
         font-size: 12px;
         text-align: center;
+        text-decoration: none;
     }
+
+   
+       
+
+   
+
     .texto__formulario__senha{
 
         color: #667085;
         font-size: 12px;
         text-align: center;
         text-decoration: underline;
+        cursor: pointer;  
+    }
+    .texto__icones{
+        color: #667085;
+        font-size: 14px;
+        text-align: center;
+
+    }    
+    .icones{
+        display: flex;
+        justify-content: center;
         cursor: pointer;
+        gap: 15px;
+}
+    .icones__redesociais{
+       
+        width: 30px;
+        height: 30px;
+    }
+    .icones__redesociais:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
 
-        
-
+    .conclusao__cadastro__texto{
+       
     }
