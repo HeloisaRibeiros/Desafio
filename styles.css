@@ -603,4 +603,17 @@ body{
         width: 100px;
         margin-left: 10px;
     }
+
+    .form-select{
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: solid 1px;
+    border-color: #e7e7e9;
+    color: #575c65;
+    
+}
+    
+        
+    
     
